@@ -31,6 +31,59 @@ body {
   background-color: var(--body-background-colour);
 }
 
+header {
+  width: 100%;
+
+  padding: 2rem 0 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto
+}
+
+  header img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+  }
+
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+  }
+
+    header ul li {
+      margin: 0 1rem 0 1rem;
+      text-align: center;
+    }
+
+    header ul li a {
+      text-decoration: none;
+      color: rgb(80, 189, 199);
+    }
+
+      header ul li strong {
+        color: white;
+        line-height: 2rem;
+      }
+
+    header nav ul li a:hover {
+      color: #aeff00;
+      background-color: #aeff00;
+      border-radius: 1rem;
+      transition: 0.5s all ease-in;
+    }
+
 main {
   min-height: 100vh;
 
