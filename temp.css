@@ -1,0 +1,123 @@
+
+header {
+    width: 100%;
+  
+    padding: 2rem 0 2rem 0;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    justify-content: space-between;
+  }
+  
+    header img {
+      object-fit: cover;
+      width: 100px;
+      height: 100px;
+      display: grid;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+  
+    .logo-and-nav {
+      border: 1px solid red;
+      /* grid-row-start: 1; */
+      /* grid-row-end: 1; */
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+  
+    header ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+      header ul li {
+        margin: 0 1rem 0 1rem;
+        text-align: center;
+        display: grid;
+  
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 9;
+        }
+  
+      header ul li a {
+        text-decoration: none;
+        color: rgb(80, 189, 199);
+      }
+  
+        header ul li strong {
+          color: white;
+          line-height: 2rem;
+        }
+  
+     
+      .bop-or-flop {
+        display: grid;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 9;
+      }
+  
+  main {
+    min-height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+        color: rgb(80, 189, 199);
+  }
+  /*
+    Screen reader text utility class
+  */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  
