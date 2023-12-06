@@ -37,8 +37,8 @@ header {
   padding: 2rem 0 2rem 0;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-row: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   justify-content: space-between;
 }
 
@@ -46,10 +46,19 @@ header {
     object-fit: cover;
     width: 100px;
     height: 100px;
+    display: grid;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 1;
+  }
+
+  .logo-and-nav {
+    border: 1px solid red;
+    /* grid-row-start: 1; */
+    /* grid-row-end: 1; */
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
 
   header ul {
@@ -61,6 +70,7 @@ header {
     header ul li {
       margin: 0 1rem 0 1rem;
       text-align: center;
+      display: grid;
 
       grid-row-start: 1;
       grid-row-end: 1;
@@ -80,6 +90,7 @@ header {
 
    
     .bop-or-flop {
+      display: grid;
       grid-row-start: 2;
       grid-row-end: 2;
       grid-column-start: 1;
