@@ -90,12 +90,14 @@ header {
     align-items: center;
     padding: 1rem;
   }
+
   
   footer ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin: auto;
   }
   
   footer ul li {
