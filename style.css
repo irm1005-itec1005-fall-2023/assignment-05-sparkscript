@@ -191,18 +191,57 @@ border: #e63946 solid 1px;
 .watch-out {
   display: flex;
   flex-direction: column;
+  border: #e63946 solid 1px
 }
 
-.movie-review {
+.movie-reviews{
+  display: flex;
+  border: #e63946 solid 1px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.movie-review1 {
   border: #e63946 solid 1px;
   display: flex;
 
 }
 
-.movie-poster{
-  width: 100px;
+.movie-review2 {
+  border: #e63946 solid 1px;
+  display: flex;
+
 }
 
+.movie-review3 {
+  border: #e63946 solid 1px;
+  display: flex;
+
+}
+
+.movie-review-content{
+  display:flex;
+  flex-direction: column;
+  padding:1rem;
+}
+
+.movie-poster{
+  width: 100px;
+  margin-left: 1rem;
+}
+
+.full-review{
+  text-decoration: none;
+  color: #f1faee;
+}
+
+.full-review:hover{
+  text-decoration: underline;
+  color:#e63946;
+}
+
+/* ---- end of Logan's section ---- */
 
 footer {
   width: 100%;
