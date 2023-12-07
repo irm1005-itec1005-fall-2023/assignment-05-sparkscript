@@ -189,7 +189,18 @@ border: #e63946 solid 1px;
 
 /* ---- Logan's section ---- */
 .watch-out {
+  display: flex;
+  flex-direction: column;
+}
 
+.movie-review {
+  border: #e63946 solid 1px;
+  display: flex;
+
+}
+
+.movie-poster{
+  width: 100px;
 }
 
 
