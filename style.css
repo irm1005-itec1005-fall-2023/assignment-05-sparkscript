@@ -123,7 +123,6 @@ header {
 
 .listen-up {
 border: #e63946 solid 1px;
-
 }
 
   .reviews {
@@ -131,62 +130,56 @@ border: #e63946 solid 1px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   text-align: center;
+  margin: 0.5rem;
   }
 
-.rating {
-  text-align: left;
-  }
-}
-
-  .rev0 {
-  border: #e63946 solid 1px;
-  }
-
-    .albm0 {
-    width: 5rem;
-    float: left;
-    flex: 0;
-}
-
-  .rev1 {
-  border: #e63946 solid 1px;
-  }
-
-    .albm1 {
-    width: 5rem;
-    float: left;
-    flex: 1;
+    .rating {
+      
     }
 
-  .rev2 {
-  border: #e63946 solid 1px;
-  }
-
-    .albm2 {
-    width: 5rem;
-    float: left;
-    flex: 2;
-  }
-
-  .rev3 {
-  border: #e63946 solid 1px;
-  }
-
-    .albm3 {
-    width: 5rem;
-    float: left;
-    flex: 3;
+    .listen-name {
+      font-weight: bold;
     }
 
-  .rev4 {
-  border: #e63946 solid 1px;
-  }
+    .listen-review {
 
-    .albm4 {
-    width: 5rem;
-    float: left;
-    flex: 4;
     }
+
+      .rev1 {
+      border: #e63946 solid 1px;
+      }
+        .albm1 {
+        width: 5rem;
+        float: left;
+        flex: 1;
+        }
+
+      .rev2 {
+      border: #e63946 solid 1px;
+      }
+        .albm2 {
+        width: 5rem;
+        float: left;
+        flex: 2;
+        }
+
+      .rev3 {
+      border: #e63946 solid 1px;
+      }
+        .albm3 {
+        width: 5rem;
+        float: left;
+        flex: 3;
+        }
+
+      .rev4 {
+      border: #e63946 solid 1px;
+      }
+        .albm4 {
+        width: 5rem;
+        float: left;
+        flex: 4;
+        }
 
 /* ---- Corinna's section ---- */
 .art-and-media {
