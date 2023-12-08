@@ -134,15 +134,20 @@ body {
     .the-scoop {
       border: #e6e639 solid 5px;
         display: grid;
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         text-wrap: wrap;
         width: 50%;
     }
 
 /* intro */
         .the-scoop-intro{
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 2;
 
+          width:100%;
          }
 
           .the-scoop-heading-styling {
@@ -160,7 +165,10 @@ body {
 
         /* content title */
           .the-scoop-content-title {
-
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
           }
 
             .the-scoop-content-heading-styling {
@@ -173,17 +181,19 @@ body {
             }
 
               .TS-content-main-heading-styling {
-
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
               }
 
           /* jacksfilms and ssniperwolf intros before the actual story starts */
-            .j-and-ss {
-
-            }
-
                   /* jacksfilms */
                     .jacksfilms {
-
+                      grid-column-start: 1;
+                      grid-column-end: 2;
+                      grid-row-start: 4;
+                      grid-row-end: 5;
                     }
 
                       .jacksfilms-intro-title {
@@ -200,7 +210,10 @@ body {
 
                   /* SSniperwolf */
                     .ssniperwolf {
-
+                      grid-column-start: 2;
+                      grid-column-end: 3;
+                      grid-row-start: 4;
+                      grid-row-end: 5;
                     }
 
                       .ssniperwolf-intro-title {
