@@ -135,9 +135,11 @@ body {
       border: #e6e639 solid 5px;
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         text-wrap: wrap;
         width: 50%;
+        text-align: center;
+
     }
 
 /* intro */
@@ -148,8 +150,10 @@ body {
           grid-row-end: 2;
 
           width:100%;
-          margin-bottom: 1rem;
+          margin-bottom: 2rem;
           padding: 0;
+
+          align-self: start;
          }
 
           .the-scoop-heading-styling {
