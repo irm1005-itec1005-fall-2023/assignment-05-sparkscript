@@ -191,32 +191,40 @@ border: #e63946 solid 1px;
 .watch-out {
   display: flex;
   flex-direction: column;
-  border: #e63946 solid 1px
 }
 
-.watch-out-header{
+.watch-out-intro{
   display:flex;
   flex-direction: column;
-  padding-left: 1rem;
+  justify-content: center;
+  align-items: center;
   padding-top: 1rem;
+  padding-bottom:1rem;
 }
 
-.movie-reviews{
+.watch-out-title{
+  font-size:5rem;
+}
+
+.watch-out-subtitle{
+  font-size:2rem;
+}
+
+.watch-out-header-reviews{
   display: flex;
-  border: #e63946 solid 1px;
   justify-content: center;
   align-items: center;
   margin-top: 0.5rem;
 }
 
-.movie-review {
-  border: #e63946 solid 1px;
+.header-review {
   display: flex;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 1rem;;
   margin-right: 1rem;
   margin-left: 1rem;
+  background-color: #122641;
 }
 
 
@@ -232,30 +240,29 @@ border: #e63946 solid 1px;
   margin-left: 1rem;
 }
 
-.full-review{
+.full-review-link{
   text-decoration: none;
   color: #f1faee;
 }
 
-.full-review:hover{
+.full-review-link:hover{
   text-decoration: underline;
   color:#e63946;
 }
 
-.ferris-bueller-full-review{
-  border: #e63946 solid 1px;
+.full-movie-review{
   display:flex;
   align-items: center;
   padding:1rem;
   margin:1rem;
   margin-left:4rem;
   margin-right: 4rem;
-  
+  border-radius:1rem;
+  background-color: #122641;
 }
 
 .review-content-section{
   padding:1rem;
-  border: #e63946 solid 1px;
   border-radius: 1rem;
   margin-left: 1rem;
 }
@@ -263,6 +270,8 @@ border: #e63946 solid 1px;
 .large-movie-poster {
   width: 200px;
   height: 300px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .profile-pic-img{
@@ -270,14 +279,14 @@ border: #e63946 solid 1px;
   height:25px;
 }
 
-.review-main-section{
-  border: #e63946 solid 1px;
+.review-post-section{
   padding:1rem;
   border-radius:1rem;
   margin-top: 1rem;
+  background-color:#0a192d;
 }
 
-.review-main-section-title{
+.review-title{
  font-size:2rem;
 }
 
@@ -288,6 +297,7 @@ border: #e63946 solid 1px;
   max-width: fit-content;
   padding: 0.5rem;
   border-radius: 1rem;
+  margin-top:0.5rem;
 }
 
 .user-info p{
@@ -296,9 +306,13 @@ border: #e63946 solid 1px;
 }
 
 .review-text{
-  border: #e63946 solid 1px;
   margin-top:1rem;
   font-size: 1.1rem;
+}
+
+.full-movie-reviews-section{
+  margin-top:1rem;
+  margin-bottom:2rem;
 }
 
 /* ---- end of Logan's section ---- */
