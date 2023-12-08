@@ -194,6 +194,13 @@ border: #e63946 solid 1px;
   border: #e63946 solid 1px
 }
 
+.watch-out-header{
+  display:flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
 .movie-reviews{
   display: flex;
   border: #e63946 solid 1px;
@@ -202,23 +209,16 @@ border: #e63946 solid 1px;
   margin-top: 0.5rem;
 }
 
-.movie-review1 {
+.movie-review {
   border: #e63946 solid 1px;
   display: flex;
-
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
-.movie-review2 {
-  border: #e63946 solid 1px;
-  display: flex;
-
-}
-
-.movie-review3 {
-  border: #e63946 solid 1px;
-  display: flex;
-
-}
 
 .movie-review-content{
   display:flex;
@@ -228,6 +228,7 @@ border: #e63946 solid 1px;
 
 .movie-poster{
   width: 100px;
+  height: 150px;
   margin-left: 1rem;
 }
 
@@ -239,6 +240,65 @@ border: #e63946 solid 1px;
 .full-review:hover{
   text-decoration: underline;
   color:#e63946;
+}
+
+.ferris-bueller-full-review{
+  border: #e63946 solid 1px;
+  display:flex;
+  align-items: center;
+  padding:1rem;
+  margin:1rem;
+  margin-left:4rem;
+  margin-right: 4rem;
+  
+}
+
+.review-content-section{
+  padding:1rem;
+  border: #e63946 solid 1px;
+  border-radius: 1rem;
+  margin-left: 1rem;
+}
+
+.large-movie-poster {
+  width: 200px;
+  height: 300px;
+}
+
+.profile-pic-img{
+  width:25px;
+  height:25px;
+}
+
+.review-main-section{
+  border: #e63946 solid 1px;
+  padding:1rem;
+  border-radius:1rem;
+  margin-top: 1rem;
+}
+
+.review-main-section-title{
+ font-size:2rem;
+}
+
+.user-info{
+  display:flex;
+  align-items: center;
+  border: #e63946 solid 1px;
+  max-width: fit-content;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.user-info p{
+  margin-left:0.5rem;
+  font-size: 1.2rem;
+}
+
+.review-text{
+  border: #e63946 solid 1px;
+  margin-top:1rem;
+  font-size: 1.1rem;
 }
 
 /* ---- end of Logan's section ---- */
