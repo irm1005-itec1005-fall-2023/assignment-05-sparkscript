@@ -209,11 +209,42 @@ header {
   font-size: 2rem;
 }
 
+@media (max-width:700px){
+  .watch-out-title{
+    font-size:3rem;
+  }
+}
+
+@media (max-width:700px){
+  .watch-out-subtitle{
+    font-size: 1.5rem;
+  }
+}
+
 .watch-out-header-reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 0.5rem;
+}
+
+@media (max-width:920px) {
+  .watch-out-header-reviews{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:920px) {
+  .header-review{
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width:300px) {
+  .header-review{
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
 }
 
 .header-review {
@@ -261,6 +292,23 @@ header {
   background-color: #122641;
 }
 
+@media (max-width:700px){
+  .full-movie-review{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:450px){
+  .full-movie-review{
+    flex-direction: column;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+  }
+}
+
+
+
+
 .review-content-section {
   padding: 1rem;
   border-radius: 1rem;
@@ -268,8 +316,8 @@ header {
 }
 
 .large-movie-poster {
-  width: 200px;
-  height: 300px;
+  max-width: 200px;
+  aspect-ratio: 2 / 3;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -309,6 +357,7 @@ header {
   margin-top: 1rem;
   font-size: 1.1rem;
 }
+
 
 .full-movie-reviews-section {
   margin-top: 1rem;
