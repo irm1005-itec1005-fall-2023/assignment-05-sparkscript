@@ -115,8 +115,113 @@ body {
 
 
 
+/* Styling for page structure */
+
+
 
     /* ---- Alex's section ---- */
+    .the-scoop {
+
+    }
+
+/* intro */
+        .the-scoop-intro{
+
+         }
+
+          .the-scoop-heading-styling {
+
+           }
+
+            .the-scoop-heading-subtitle {
+              
+            }
+
+/* main content */
+        .the-scoop-content {
+
+        }
+
+        /* content title */
+          .the-scoop-content-title {
+
+          }
+
+            .the-scoop-content-heading-styling {
+
+            }
+
+        /* content main */
+            .the-scoop-content-main {
+
+            }
+
+              .TS-content-main-heading-styling {
+
+              }
+
+              /* jacksfilms */
+                .jacksfilms {
+
+                }
+
+                  .jacksfilms-intro-title {
+                    
+                  }
+
+                  .jacksfilms-pic {
+
+                  }
+
+                  .jacksfillms-about {
+
+                  }
+
+              /* SSniperwolf */
+                .ssniperwolf {
+
+                }
+
+                  .ssniperwolf-intro-title {
+
+                  }
+
+                  .ssniperwolf-pic {
+
+                  }
+
+                  .ssniperwolf-about {
+
+                  }
+
+        /* The actual story part */
+          .the-scoop-content-the-story {
+
+          }
+
+              .TS-story-title{
+
+              }
+
+            .the-scoop-content-the-story p {
+
+            }
+
+              .the-scoop-quote-indent {
+
+              }
+
+        /* Story conclusion */
+          .the-scoop-conclusion {
+
+          }
+
+
+
+
+              
+
+
 
 
 
