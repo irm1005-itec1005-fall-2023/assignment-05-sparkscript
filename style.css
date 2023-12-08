@@ -45,6 +45,15 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: 2rem;
       }
+        @media screen and (min-width: 800px) {
+          .header-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 2rem;
+          }
+          
+        }
 
         .top-block {
           grid-column-start: 1;
@@ -68,6 +77,8 @@ body {
               .top-block {
                 display: flex;
                 flex-direction: row;
+                width: 100%;
+                background-color: green;
               }
             }
 
@@ -121,7 +132,12 @@ body {
 
     /* ---- Alex's section ---- */
     .the-scoop {
-
+      border: #e6e639 solid 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-wrap: wrap;
+        width: 50%;
     }
 
 /* intro */
@@ -160,39 +176,44 @@ body {
 
               }
 
-              /* jacksfilms */
-                .jacksfilms {
+          /* jacksfilms and ssniperwolf intros before the actual story starts */
+            .j-and-ss {
 
-                }
+            }
 
-                  .jacksfilms-intro-title {
-                    
-                  }
+                  /* jacksfilms */
+                    .jacksfilms {
 
-                  .jacksfilms-pic {
+                    }
 
-                  }
+                      .jacksfilms-intro-title {
+                        
+                      }
 
-                  .jacksfillms-about {
+                      .jacksfilms-pic {
 
-                  }
+                      }
 
-              /* SSniperwolf */
-                .ssniperwolf {
+                      .jacksfillms-about {
 
-                }
+                      }
 
-                  .ssniperwolf-intro-title {
+                  /* SSniperwolf */
+                    .ssniperwolf {
 
-                  }
+                    }
 
-                  .ssniperwolf-pic {
+                      .ssniperwolf-intro-title {
 
-                  }
+                      }
 
-                  .ssniperwolf-about {
+                      .ssniperwolf-pic {
 
-                  }
+                      }
+
+                      .ssniperwolf-about {
+
+                      }
 
         /* The actual story part */
           .the-scoop-content-the-story {
@@ -214,6 +235,11 @@ body {
         /* Story conclusion */
           .the-scoop-conclusion {
 
+          }
+
+          /* misc styling */
+          br {
+            margin-bottom: 1rem;
           }
 
 
