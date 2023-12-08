@@ -117,7 +117,6 @@ body {
 
 
     /* ---- Alex's section ---- */
-    .the-scoop {}
 
 
 
@@ -139,13 +138,9 @@ body {
       margin: 0.5rem;
     }
 
-    .rating {}
-
     .listen-name {
       font-weight: bold;
     }
-
-    .listen-review {}
 
     .rev1 {
       border: #e63946 solid 1px;
@@ -193,7 +188,6 @@ body {
 
 
     /* ---- Corinna's section ---- */
-    .art-and-media {}
 
 
 
