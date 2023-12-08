@@ -134,7 +134,7 @@ body {
     .the-scoop {
       border: #e6e639 solid 5px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr; 
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         text-wrap: wrap;
         width: 50%;
@@ -148,6 +148,8 @@ body {
           grid-row-end: 2;
 
           width:100%;
+          margin-bottom: 1rem;
+          padding: 0;
          }
 
           .the-scoop-heading-styling {
@@ -169,6 +171,9 @@ body {
             grid-column-end: 3;
             grid-row-start: 2;
             grid-row-end: 3;
+
+            margin: 0;
+            padding: 0;
           }
 
             .the-scoop-content-heading-styling {
@@ -251,9 +256,6 @@ body {
           }
 
           /* misc styling */
-          br {
-            margin-bottom: 1rem;
-          }
 
 
 
