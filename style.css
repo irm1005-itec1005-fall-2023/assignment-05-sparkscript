@@ -31,340 +31,369 @@ body {
   background-color: var(--body-background-colour);
 }
 
-header {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
-  /* justify-content: space-between; */
-}
-
-.header-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 2rem;
-}
-
-.top-block {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  background-color: green;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.top-block-logo {
-  width: 100px;
-}
-
-@media screen and (min-width: 800px) {
-  .top-block {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-.page-nav {
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-@media screen and (min-width: 800px) {
-  .page-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-.page-nav li {
-  padding: 0.5rem;
-}
-
-.page-nav li a {
-  text-decoration: none;
-  color: white;
-}
-
-.page-nav li a:hover {
-  color: red;
-}
-
-.bottom-block {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  background-color: purple;
-}
-
-
-
-
-/* ---- Alex's section ---- */
-.the-scoop {}
-
-
-/* ---- Noor's section ---- */
-
-.listen-up {
-  border: #e63946 solid 1px;
-}
-
-.reviews {
-  border: #e63946 solid 1px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  text-align: center;
-  margin: 0.5rem;
-}
-
-.rating {}
-
-.listen-name {
-  font-weight: bold;
-}
-
-.listen-review {}
-
-.rev1 {
-  border: #e63946 solid 1px;
-}
-
-.albm1 {
-  width: 5rem;
-  float: left;
-  flex: 1;
-}
-
-.rev2 {
-  border: #e63946 solid 1px;
-}
-
-.albm2 {
-  width: 5rem;
-  float: left;
-  flex: 2;
-}
-
-.rev3 {
-  border: #e63946 solid 1px;
-}
-
-.albm3 {
-  width: 5rem;
-  float: left;
-  flex: 3;
-}
-
-.rev4 {
-  border: #e63946 solid 1px;
-}
-
-.albm4 {
-  width: 5rem;
-  float: left;
-  flex: 4;
-}
-
-/* ---- Corinna's section ---- */
-.art-and-media {}
-
-
-/* ---- Logan's section ---- */
-.watch-out {
-  display: flex;
-  flex-direction: column;
-  background: rgb(29,53,87);
-  background: linear-gradient(0deg, rgba(29,53,87,1) 90%, rgba(10,28,55,1) 100%);
-}
-
-.watch-out-intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.watch-out-title {
-  font-size: 5rem;
-}
-
-.watch-out-subtitle {
-  font-size: 2rem;
-}
-
-@media (max-width:700px){
-  .watch-out-title{
-    font-size:3rem;
-  }
-}
-
-@media (max-width:700px){
-  .watch-out-subtitle{
-    font-size: 1.5rem;
-  }
-}
-
-.watch-out-header-reviews {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-
-@media (max-width:920px) {
-  .watch-out-header-reviews{
-    flex-direction: column;
-  }
-}
-
-@media (max-width:920px) {
-  .header-review{
-    margin-bottom: 1rem;
-  }
-}
-
-@media (max-width:300px) {
-  .header-review{
-    flex-direction: column;
-    margin-bottom: 1rem;
-  }
-}
-
-.header-review {
-  display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-radius: 1rem;
-  ;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  background-color: #122641;
-}
-
-
-.movie-review-content {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-}
-
-.movie-poster {
-  width: 100px;
-  height: 150px;
-  margin-left: 1rem;
-}
-
-.full-review-link {
-  text-decoration: none;
-  color: #f1faee;
-}
-
-.full-review-link:hover {
-  text-decoration: underline;
-  color: #FCD53F;
-}
-
-.full-movie-review {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  margin: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  border-radius: 1rem;
-  background-color: #122641;
-}
-
-@media (max-width:700px){
-  .full-movie-review{
-    flex-direction: column;
-  }
-}
-
-@media (max-width:450px){
-  .full-movie-review{
-    flex-direction: column;
-    margin-left: 0.5rem;
-    margin-right:0.5rem;
-  }
-}
-
-
-
-
-.review-content-section {
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-left: 1rem;
-}
-
-.large-movie-poster {
-  max-width: 200px;
-  aspect-ratio: 2 / 3;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.profile-pic-img {
-  width: 25px;
-  height: 25px;
-}
-
-.review-post-section {
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-top: 1rem;
-  background-color: #0a192d;
-}
-
-.review-title {
-  font-size: 2rem;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  max-width: fit-content;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  margin-top: 0.5rem;
-  background-color: #04101d;
-}
-
-.user-info p {
-  margin-left: 0.5rem;
-  font-size: 1.2rem;
-}
-
-.review-text {
-  margin-top: 1rem;
-  font-size: 1.1rem;
-}
-
-
-.full-movie-reviews-section {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-/* ---- end of Logan's section ---- */
+    header {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      /* grid-template-rows: 1fr 1fr; */
+      /* justify-content: space-between; */
+    }
+
+      .header-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+      }
+
+        .top-block {
+          grid-column-start: 1;
+          grid-column-end: 6;
+          grid-row-start: 1;
+          grid-row-end: 1;
+          background-color: green;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-content: center;
+          align-items: center;
+          text-align: center;
+        }
+
+          .top-block-logo {
+            width: 100px;
+          }
+
+            @media screen and (min-width: 800px) {
+              .top-block {
+                display: flex;
+                flex-direction: row;
+              }
+            }
+
+        .page-nav {
+          list-style-type: none;
+          margin: auto;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+
+            @media screen and (min-width: 800px) {
+              .page-nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: row;
+              }
+            }
+
+          .page-nav li {
+            padding: 0.5rem;
+          }
+
+            .page-nav li a {
+              text-decoration: none;
+              color: white;
+            }
+
+              .page-nav li a:hover {
+                color: red;
+              }
+
+        .bottom-block {
+          grid-column-start: 1;
+          grid-column-end: 6;
+          grid-row-start: 2;
+          grid-row-end: 2;
+          background-color: purple;
+        }
+
+/* end of header */
+
+
+
+
+    /* ---- Alex's section ---- */
+    .the-scoop {}
+
+
+
+
+
+
+
+    /* ---- Noor's section ---- */
+
+    .listen-up {
+      border: #e63946 solid 1px;
+    }
+
+    .reviews {
+      border: #e63946 solid 1px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      text-align: center;
+      margin: 0.5rem;
+    }
+
+    .rating {}
+
+    .listen-name {
+      font-weight: bold;
+    }
+
+    .listen-review {}
+
+    .rev1 {
+      border: #e63946 solid 1px;
+    }
+
+    .albm1 {
+      width: 5rem;
+      float: left;
+      flex: 1;
+    }
+
+    .rev2 {
+      border: #e63946 solid 1px;
+    }
+
+    .albm2 {
+      width: 5rem;
+      float: left;
+      flex: 2;
+    }
+
+    .rev3 {
+      border: #e63946 solid 1px;
+    }
+
+    .albm3 {
+      width: 5rem;
+      float: left;
+      flex: 3;
+    }
+
+    .rev4 {
+      border: #e63946 solid 1px;
+    }
+
+    .albm4 {
+      width: 5rem;
+      float: left;
+      flex: 4;
+    }
+
+
+
+
+
+
+    /* ---- Corinna's section ---- */
+    .art-and-media {}
+
+
+
+
+
+
+
+
+
+    /* ---- Logan's section ---- */
+    .watch-out {
+      display: flex;
+      flex-direction: column;
+      background: rgb(29,53,87);
+      background: linear-gradient(0deg, rgba(29,53,87,1) 90%, rgba(10,28,55,1) 100%);
+    }
+
+    .watch-out-intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .watch-out-title {
+      font-size: 5rem;
+    }
+
+    .watch-out-subtitle {
+      font-size: 2rem;
+    }
+
+    @media (max-width:700px){
+      .watch-out-title{
+        font-size:3rem;
+      }
+    }
+
+    @media (max-width:700px){
+      .watch-out-subtitle{
+        font-size: 1.5rem;
+      }
+    }
+
+    .watch-out-header-reviews {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+
+    @media (max-width:920px) {
+      .watch-out-header-reviews{
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width:920px) {
+      .header-review{
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media (max-width:300px) {
+      .header-review{
+        flex-direction: column;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .header-review {
+      display: flex;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-radius: 1rem;
+      ;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      background-color: #122641;
+    }
+
+
+    .movie-review-content {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .movie-poster {
+      width: 100px;
+      height: 150px;
+      margin-left: 1rem;
+    }
+
+    .full-review-link {
+      text-decoration: none;
+      color: #f1faee;
+    }
+
+    .full-review-link:hover {
+      text-decoration: underline;
+      color: #FCD53F;
+    }
+
+    .full-movie-review {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      margin: 1rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+      border-radius: 1rem;
+      background-color: #122641;
+    }
+
+    @media (max-width:700px){
+      .full-movie-review{
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width:450px){
+      .full-movie-review{
+        flex-direction: column;
+        margin-left: 0.5rem;
+        margin-right:0.5rem;
+      }
+    }
+
+
+
+
+    .review-content-section {
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-left: 1rem;
+    }
+
+    .large-movie-poster {
+      max-width: 200px;
+      aspect-ratio: 2 / 3;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    .profile-pic-img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .review-post-section {
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      background-color: #0a192d;
+    }
+
+    .review-title {
+      font-size: 2rem;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      max-width: fit-content;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      margin-top: 0.5rem;
+      background-color: #04101d;
+    }
+
+    .user-info p {
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .review-text {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+
+
+    .full-movie-reviews-section {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    /* ---- end of Logan's section ---- */
+
+
+
+
+
+
+
+
+
+
 
 footer {
   width: 100%;
