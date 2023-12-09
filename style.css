@@ -137,7 +137,6 @@ body {
         grid-template-columns: 1fr 1fr; 
         grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         text-wrap: wrap;
-        width: 50%;
         text-align: center;
 
     }
@@ -146,8 +145,8 @@ body {
         .the-scoop-intro{
           grid-column-start: 1;
           grid-column-end: 3;
-          grid-row-start: 1;
-          grid-row-end: 2;
+          grid-row-start: auto;
+          grid-row-end: auto;
 
           width:100%;
           margin-bottom: 2rem;
@@ -172,12 +171,15 @@ body {
         /* content title */
           .the-scoop-content-title {
             grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 2;
-            grid-row-end: 3;
+            grid-column-end: -1;
+            grid-row-start: auto 2;
+            grid-row-end: auto -7;
 
-            margin: 0;
+            width: 100%;
+            margin-bottom: 2rem;
             padding: 0;
+
+            align-self: start;
           }
 
             .the-scoop-content-heading-styling {
@@ -190,10 +192,12 @@ body {
             }
 
               .TS-content-main-heading-styling {
-                grid-column-start: 1;
-                grid-column-end: 3;
-                grid-row-start: 3;
-                grid-row-end: 4;
+                grid-column-start: auto 1;
+                grid-column-end: auto 3;
+                grid-row-start: auto -7;
+                grid-row-end: auto -6;
+
+                margin-bottom: 1rem;
               }
 
           /* jacksfilms and ssniperwolf intros before the actual story starts */
@@ -201,8 +205,11 @@ body {
                     .jacksfilms {
                       grid-column-start: 1;
                       grid-column-end: 2;
-                      grid-row-start: 4;
-                      grid-row-end: 5;
+                      grid-row-start: -7;
+                      grid-row-end: -6;
+                      border: #e63946 solid 1px;
+                      padding: auto;
+                      margin-bottom: 1rem;
                     }
 
                       .jacksfilms-intro-title {
@@ -220,9 +227,12 @@ body {
                   /* SSniperwolf */
                     .ssniperwolf {
                       grid-column-start: 2;
-                      grid-column-end: 3;
-                      grid-row-start: 4;
-                      grid-row-end: 5;
+                      grid-column-end: -1;
+                      grid-row-start: 1;
+                      grid-row-end: -5;
+                      border: #e63946 solid 1px;
+                      padding: auto;
+                      margin-bottom: 1rem;
                     }
 
                       .ssniperwolf-intro-title {
