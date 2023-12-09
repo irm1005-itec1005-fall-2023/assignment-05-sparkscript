@@ -217,7 +217,6 @@ body {
     }
 
     .reviews {
-      border: #e63946 solid 1px;
       display: flex;
       flex-direction: column;
       text-align: center;
