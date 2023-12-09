@@ -208,18 +208,26 @@ body {
 
     .reviews {
       border: #e63946 solid 1px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      display: flex;
+      flex-direction: column;
       text-align: center;
       margin: 0.5rem;
     }
 
     .listen-name {
+      font-weight: bolder;
+    }
+
+    .Listen-author {
       font-weight: bold;
     }
 
     .rev1 {
       border: #e63946 solid 1px;
+      background-color: #122641;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 1rem;
     }
 
     .albm1 {
@@ -230,6 +238,10 @@ body {
 
     .rev2 {
       border: #e63946 solid 1px;
+      background-color: #122641;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 1rem;
     }
 
     .albm2 {
@@ -240,6 +252,10 @@ body {
 
     .rev3 {
       border: #e63946 solid 1px;
+      background-color: #122641;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 1rem;
     }
 
     .albm3 {
@@ -250,6 +266,10 @@ body {
 
     .rev4 {
       border: #e63946 solid 1px;
+      background-color: #122641;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 1rem;
     }
 
     .albm4 {
@@ -257,7 +277,6 @@ body {
       float: left;
       flex: 4;
     }
-
 
 
 
