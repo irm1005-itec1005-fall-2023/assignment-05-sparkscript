@@ -205,6 +205,16 @@ body {
     .listen-up {
       border: #e63946 solid 1px;
     }
+    .listen-up h2 {
+      text-align: center;
+      font-size: 3rem;
+      color: #f1faee;
+    }
+    .listen-headline {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #f1faee;
+    }
 
     .reviews {
       border: #e63946 solid 1px;
@@ -214,12 +224,29 @@ body {
       margin: 0.5rem;
     }
 
+    .rating {
+      font-size: 2.5rem;
+      text-shadow: #a8dadc 0px 0px 8px;
+    }
+
     .listen-name {
+      font-size: 2rem;
       font-weight: bolder;
     }
 
-    .Listen-author {
+    .listen-author {
+      font-size: 1rem;
+      font-style: italic;
       font-weight: bold;
+      color:#457b9d;
+    }
+    
+    .listen-review {
+      text-align: left;
+      font-size: 1rem;
+      color: #f1faee;
+      overflow: auto;
+      padding: 0.5rem;
     }
 
     .rev1 {
@@ -231,7 +258,7 @@ body {
     }
 
     .albm1 {
-      width: 5rem;
+      width: auto;
       float: left;
       flex: 1;
     }
@@ -245,7 +272,7 @@ body {
     }
 
     .albm2 {
-      width: 5rem;
+      width: auto;
       float: left;
       flex: 2;
     }
@@ -259,7 +286,7 @@ body {
     }
 
     .albm3 {
-      width: 5rem;
+      width: auto;
       float: left;
       flex: 3;
     }
@@ -273,7 +300,7 @@ body {
     }
 
     .albm4 {
-      width: 5rem;
+      width: auto;
       float: left;
       flex: 4;
     }
