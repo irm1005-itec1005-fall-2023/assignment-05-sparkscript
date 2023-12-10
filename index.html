@@ -27,11 +27,11 @@
       <ul class="page-nav">
         <li><a href="#">Home</a></li>
 
-        <li><a href="#">The Scoop</a></li>
+        <li><a href="#thescoop">The Scoop</a></li>
 
-        <li><a href="#">Listen up!</a></li>
+        <li><a href="#listenup">Listen up!</a></li>
 
-        <li><a href="#">Art & Media</a></li>
+        <li><a href="#artandmedia">Art & Media</a></li>
 
         <li><a href="#watchout">Watch Out...</a></li>
 
@@ -50,8 +50,8 @@
   <main>
     <div id="app" class="page-without-the-header"></div>
     <div class="bottom-block">
-      <div class="bop-or-flop">
-        <h1>Bop or Flop</h1>
+      <div class="bop-or-flop-title">
+        <h1><div class=bop>Bop<br><br></div> Or <div class=flop><br>Flop</div></h1>
       </div>
     </div>
 
@@ -67,7 +67,7 @@
 
 <!-- Alex's Section -->
     <div class="alex-section">
-      <div class="the-scoop">
+      <div class="the-scoop" id="thescoop">
 
 
         <div class="TS-S1">
@@ -81,6 +81,8 @@
                   <h3 class="the-scoop-content-heading-styling">Who is/are the internet's latest hero(s), and villain(s) now?
                     <br>According to our team here at Bop or Flop.</h3>
                 </div>
+
+                  <div class="TS-S3-4">
 
                   <h4 class="TS-S3">Introducing our charachters this week</h4>
 
@@ -102,6 +104,8 @@
                         SSSniperwolf has been creating content on YouTube for a decade, currently she's known for reacting to TikTok clips. She has 24.5 million subscribers on YouTube and 5.5 million followers on Twitch. She has a net worth of $8 million, according to Celebrity Net Worth.
                       </p>
                     </div>
+
+                  </div>
 
                          <div class="TS-S5">
                             <h6 class="TS-story-title">What's the scoop?</h6>
@@ -157,7 +161,7 @@
       <!-- Noor's Section -->
     <div class="noor-section">
 
-      <div class="listen-up">
+      <div class="listen-up" id="listenup">
         <h2>Listen Up!</h2>
         <p class="listen-headline">This is Your Weekly Sparkscript Song Roundup</p>
 
@@ -202,12 +206,9 @@
       <!-- end of noor section -->
 
 
-
-
-
       <!-- Corinna's Section -->
     <div class="corinna-section">
-      <div class="art-and-media">
+      <div class="art-and-media" id="artandmedia">
         <h2 class ="artandmediatitle">Art & Media</h2>
         <div class ="big-story">
         <h3>BREAKING: World-renowned Artist Unveils Invisible Sculpture, Critics Rave About Its 'Nonexistent Depth</h3>
@@ -215,39 +216,31 @@
       </div>
       
         <div class ="story-1">
+         <img class = "photo 1" src = images/new-corinna/canvas.jpg> 
           <h3>Enlightenment by Staring: The Blank Canvas Revolution</h3>
           <p>Explore the transformative power of staring at an empty canvas for hours. Spoiler: You might not create anything, but you'll feel oddly enlightened about the depths of your creativity.</p>
         </div>
 
 
         <div class = "story-2">
-          <div class = "image-2"> <img src="images/sillyimgs(corinna)/questionmark.png" alt="image of question mark on directors chair."> </div>
+          <img class = photo-2 src="images/new-corinna/question-mark.png" alt="image of question mark on directors chair."> 
           <h3>Local Man Deciphers Avant-Garde Film, World Still Confused</h3>
           <p>Join us on a journey as a man claims to have unlocked the hidden meanings in an avant-garde film. Spoiler: The meanings may be as elusive as the Loch Ness Monster.</p>
         </div>
 
-
         <div class = "story-3">
-          <div class = "image-3">
-            <img src="images/sillyimgs(corinna)/doodles.jpg" alt="image of doodles in crayon">
-          </div>
-          <h3>Bestseller Wisdom: Infinite Insights or Random Scribbles</h3>
-          <p>Dive into the profound insights of the latest bestseller that claims to have cracked the code of existence. Spoiler: The code may involve a lot of coffee stains and doodles.</p>
+            <img class ="photo-3" src="images/new-corinna/doodle.jpg" alt="image of doodles in crayon">
+            <h3>Bestseller Wisdom: Infinite Insights or Random Scribbles</h3>
+            <p>Dive into the profound insights of the latest bestseller that claims to have cracked the code of existence. Spoiler: The code may involve a lot of coffee stains and doodles.</p>
         </div>
 
         <div class = "story-4">
+          <img class ="photo-4" src="images/new-corinna/aaa.jpg">
           <h3>10-Hour Minimalist Loop: Musical Genius or Sanity Test?</h3>
           <p>Meet the musical genius who believes that less is more, and find out if anyone has made it through the entire 10-hour loop without losing their sanity.</p>
         </div>
-
-        </div>
-      </div>
     
     
-
-
-
-
 
 
         <!-- Logan's Section -->
@@ -388,14 +381,14 @@
       <h2>Sign up for our newsletter!</h2>
       <p>Get weekly posts and reviews delivered to your inbox.</p>
         
-      <form class="formstyle">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required><br>
+      <form class="formstyle" autocomplete="on">
+          <label for="name">Name:<br></label>
+          <input type="text" id="name" name="name" autocomplete="name"><br>
 
-          <label for="email">E-mail:</label>
+          <label for="email">E-mail:<br></label>
           <input type="email" id="email" name="email" autocomplete="email" required><br>
 
-          <label for="confirmation"> I consent to weekly emails</label>
+          <label for="confirmation">I consent to weekly e-mails:</label>
           <input type="checkbox" id="confirmation" name="confirmation" required><br>
 
           <input type="submit" value="Submit">
@@ -406,47 +399,28 @@
   
   </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <footer>
-    <div class="footer-styling">
-      <img src="./images/temp-logo.jpeg" alt="Logo" class="footer-logo" />
-      <ul class="footer-nav">
-        <li><a href="#"><strong>Home</strong></a></li>
-
-        <li><a href="#"><strong>The Scoop</strong><br>
-            Chronically Online Drama</a></li>
-
-        <li><a href="#"><strong>Listen up!</strong><br>
-            Music</a></li>
-
-        <li><a href="#">Art & Media</a></li>
-
-        <li><a href="#"><strong>Watch Out...</strong>
-            <br>Movies</a></li>
-
-        <li><a href="#"><strong>About Us</strong></a></li>
-
-        <li><a href="#"><strong>Contact Us</strong></a></li>
-      </ul>
+    <div class="footer-grid">
+  
+  
+        <img src="./images/temp-logo.jpeg" alt="Logo" class="bottom-block-logo" />
+  
+        <ul class="page-nav">
+          <li><a href="#">Home</a></li>
+  
+          <li><a href="#thescoop">The Scoop</a></li>
+  
+          <li><a href="#listenup">Listen up!</a></li>
+  
+          <li><a href="#artandmedia">Art & Media</a></li>
+  
+          <li><a href="#watchout">Watch Out...</a></li>
+  
+          <li><a href="#">About Us</a></li>
+  
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+  
     </div>
   </footer>
 
