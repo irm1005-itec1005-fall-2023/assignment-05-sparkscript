@@ -253,7 +253,7 @@ header ul li a:hover {
       background-color: #122641;
       border-radius: 1rem;
 
-      background-color: darkgreen;
+      background-color: #1d3557;
             padding: 1rem;
             border-radius:1rem;
     }
@@ -357,7 +357,8 @@ header ul li a:hover {
 
             color: #fbffc0;
             font-size: small;
-            background-color: darkgreen;
+            background-color: #1d3557;
+            margin: 1rem;
             padding: 1rem;
             border-radius:1rem;
 
@@ -378,7 +379,8 @@ header ul li a:hover {
           grid-row-end: 7;
 
           color: #fbffc0;
-          background-color: darkgreen;
+          background-color: #1d3557;
+          margin: 1rem;
             padding: 1rem;
             border-radius:1rem;
 
@@ -391,10 +393,18 @@ header ul li a:hover {
     /* ---- Noor's section ---- */
 
     .listen-up {
-      background-color: #1d3557;
       border-radius: 1rem;
+      background: rgb(29,53,87);
+      background: linear-gradient(0deg, rgba(29,53,87,1) 90%, rgba(10,28,55,1) 100%);
+      margin: 1rem;
     }
 
+    .listen-top {
+      border-radius: 1rem;
+      padding: 0.2rem;
+      margin: 1rem;
+    }
+    
     .listen-up h2 {
       text-align: center;
       font-size: 3rem;
@@ -520,58 +530,85 @@ header ul li a:hover {
 }
 
 .big-story {
+  text-size: 5rem;
   grid-row: 2/3;
   grid-column:1/4;
   padding: 3rem 3rem 3rem 3rem;
+  text-align: center;
+  background-color: #0a192d;
+  border-radius: 3rem;
+  margin: 1rem 1rem 1rem 1rem;
+  
+  
 }
 
 .story-1 {
   grid-row:3/4;
-  grid-column:2/4;
-  padding: 3rem 3rem 3rem 3rem;
+  grid-column:2/6;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .story-2 {
   grid-row:4/5;
   grid-column:2/4;
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .story-3 {
   grid-row:5/6;
   grid-column:2/4;
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .story-4 {
   grid-row:6/7;
+  margin-top: 2rem;
   grid-column:2/4;
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .photo-1 {
   grid-row:3/4;
   grid-column:1/2;
   padding: 1rem 1rem 1rem 1rem;
+  width: 12rem;
+  height: auto;
 }
 
 .photo-2 {
   grid-row:4/5;
   grid-column:1/2;
   padding: 1rem 1rem 1rem 1rem;
+  width: 12rem;
+  height: auto;
 }
 
 .photo-3 {
   grid-row:5/6;
   grid-column:1/2;
   padding: 1rem 1rem 1rem 1rem;
+  width: 12rem;
+  height: auto;
 }
 
 .photo-4 {
   grid-row:6/7;
   grid-column:1/2;
   padding: 1rem 1rem 1rem 1rem;
+  width: 12rem;
+  height: auto;
+  margin-top: 2rem;
+
 }
+
+.container {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  background-color: #0a192d; ;
+  grid-column: 1/4;
+}
+
 
 
     /* ---- Logan's section ---- */
@@ -741,15 +778,15 @@ header ul li a:hover {
     /* ---- end of Logan's section ---- */
 
     /* ---- Newsletter Sign-up Form ---- */
-.sign-up {
-  align-self: center;
-  color: #0a192d;
-  justify-content: center;
-  margin:
-}
 
 .newsletter-form {
   background-color: #457b9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  color: #a8dadc;
   text-align: center;
   width: fit-content;
   border-radius: 1rem;
@@ -757,9 +794,46 @@ header ul li a:hover {
   padding: 1rem;
 }
 
+.newsletter-form h2 {
+  color: #122641;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.newsletter-form p {
+  color: #1d3557;
+  font-style: oblique;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.textbox {
+  margin: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  width: 90%;
+}
+
 .formstyle {
   margin: 1rem;
   width: 80%;
+}
+
+.submit {
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  width: 90%;
+  background-color: #1d3557;
+  color: #a8dadc;
+  font-size: 1.5rem;
+
+}
+
+.submit:hover {
+  background-color: #a8dadc;
+  color: #1d3557;
+  cursor: pointer;
 }
 
 /* ---- Footer Section ---- */

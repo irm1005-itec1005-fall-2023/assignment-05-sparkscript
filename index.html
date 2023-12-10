@@ -43,10 +43,6 @@
   </div>
   </header>
 
-
-
-
-
   <main>
     <div id="app" class="page-without-the-header"></div>
     <div class="bottom-block">
@@ -84,7 +80,7 @@
 
                   <div class="TS-S3-4">
 
-                  <h4 class="TS-S3">Introducing our charachters this week</h4>
+                  <h4 class="TS-S3">Introducing our characters this week</h4>
 
                     <div class="TS-S4-L">
                         <h5 class="hero">Meet our hero, jacksfilms</h5>
@@ -162,8 +158,11 @@
     <div class="noor-section">
 
       <div class="listen-up" id="listenup">
-        <h2>Listen Up!</h2>
-        <p class="listen-headline">This is Your Weekly Sparkscript Song Roundup</p>
+        
+          <div class="listen-top">
+          <h2>Listen Up!</h2>
+          <p class="listen-headline">This is Your Weekly Sparkscript Song Roundup</p>
+          </div>
 
         <div class="reviews">
 
@@ -211,37 +210,45 @@
       <div class="art-and-media" id="artandmedia">
         <h2 class ="artandmediatitle">Art & Media</h2>
         <div class ="big-story">
-        <h3>BREAKING: World-renowned Artist Unveils Invisible Sculpture, Critics Rave About Its 'Nonexistent Depth</h3>
+          <div class = "big-news-container">
+        <h3>BREAKING NEWS: World-renowned Artist Unveils Invisible Sculpture, Critics Rave About Its 'Nonexistent Depth</h3>
         <p>In a groundbreaking artistic revelation, a globally acclaimed artist has just unveiled an invisible sculpture, leaving audiences in awe of its nonexistent form and critics applauding its profound lack of substance. Is this the future of art, or just a clever way to sell air? We investigate the invisible revolution taking the art world by storm.</p>
+       </div>
       </div>
+
       
-        <div class ="story-1">
-         <img class = "photo 1" src = images/new-corinna/canvas.jpg> 
-          <h3>Enlightenment by Staring: The Blank Canvas Revolution</h3>
+      <div class ="container">
+         <img class = "photo-1" src = images/new-corinna/canvas.jpg> 
+              <div class ="story-1">
+              <h3>Enlightenment by Staring: The Blank Canvas Revolution</h3>
           <p>Explore the transformative power of staring at an empty canvas for hours. Spoiler: You might not create anything, but you'll feel oddly enlightened about the depths of your creativity.</p>
+        </div>
         </div>
 
 
-        <div class = "story-2">
           <img class = photo-2 src="images/new-corinna/question-mark.png" alt="image of question mark on directors chair."> 
+          <div class = "story-2">
           <h3>Local Man Deciphers Avant-Garde Film, World Still Confused</h3>
           <p>Join us on a journey as a man claims to have unlocked the hidden meanings in an avant-garde film. Spoiler: The meanings may be as elusive as the Loch Ness Monster.</p>
         </div>
 
-        <div class = "story-3">
+        <div class ="container">
             <img class ="photo-3" src="images/new-corinna/doodle.jpg" alt="image of doodles in crayon">
+            <div class = "story-3">
             <h3>Bestseller Wisdom: Infinite Insights or Random Scribbles</h3>
             <p>Dive into the profound insights of the latest bestseller that claims to have cracked the code of existence. Spoiler: The code may involve a lot of coffee stains and doodles.</p>
         </div>
+        </div>
 
-        <div class = "story-4">
-          <img class ="photo-4" src="images/new-corinna/aaa.jpg">
+          <img class ="photo-4" src="images/new-corinna/aaa.jpeg" alt="a dude going bonkers for music">
+          <div class = "story-4">
           <h3>10-Hour Minimalist Loop: Musical Genius or Sanity Test?</h3>
           <p>Meet the musical genius who believes that less is more, and find out if anyone has made it through the entire 10-hour loop without losing their sanity.</p>
         </div>
+    </div>
+  </div>
     
-    
-
+<!--Used ChatGPT to come up with article titles and synopsis'.-->
 
         <!-- Logan's Section -->
 
@@ -373,9 +380,7 @@
 
 <!-- closing tag to close div for all content sections --> </div>
 
-      
-
-  <div class="sign-up">
+    
 
     <div class="newsletter-form">
       <h2>Sign up for our newsletter!</h2>
@@ -383,20 +388,19 @@
         
       <form class="formstyle" autocomplete="on">
           <label for="name">Name:<br></label>
-          <input type="text" id="name" name="name" autocomplete="name"><br>
+          <input class="textbox" type="text" id="name" name="name" autocomplete="name"><br>
 
           <label for="email">E-mail:<br></label>
-          <input type="email" id="email" name="email" autocomplete="email" required><br>
+          <input class="textbox" type="email" id="email" name="email" autocomplete="email" required><br>
 
           <label for="confirmation">I consent to weekly e-mails:</label>
           <input type="checkbox" id="confirmation" name="confirmation" required><br>
 
-          <input type="submit" value="Submit">
+          <input class=submit type="submit" value="Submit">
         </form>
         
     </div>
-  </div>
-  
+
   </main>
 
   <footer>
