@@ -31,7 +31,52 @@ body {
   background-color: var(--body-background-colour);
 }
 
-    header {
+.header-grid {
+  background-color: #122641;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .he
+  }
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right:1.3rem;
+  font-size:1.3rem;
+}
+
+header ul li {
+  margin-left: 2.8rem;
+}
+
+header ul li a {
+  text-decoration:none;
+  color:white;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+.top-block-logo{
+  height:3rem;
+  width:auto;
+  border-radius: 1rem;
+  margin:1rem;
+}
+
+
+
+    /* header {
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -55,19 +100,19 @@ body {
           text-align: center;
         }
 
+        @media screen and (min-width: 700px) {
+          .top-block {
+            display: flex;
+            flex-direction: row;
+            background-color: green;
+            border: solid 1rem black;
+            width: 100%;
+          }
+        }
+
           .top-block-logo {
             width: 100px;
           }
-
-            @media screen and (min-width: 700px) {
-              .top-block {
-                display: flex;
-                flex-direction: row;
-                background-color: green;
-                border: solid 1rem black;
-                width: 100%;
-              }
-            }
 
         .page-nav {
           list-style-type: none;
@@ -120,8 +165,9 @@ body {
   grid-column: 1fr;
   align-items: start;
   background-color: #122641 0.5;
-  margin: 1rem;
+  justify-content: center;
 }
+
 @media screen and (max-width: 700px) { 
   .all-content-sections {
     display: grid;
@@ -185,7 +231,6 @@ body {
       }
 
 
-
     .logan-section {
       grid-column-start: 2;
       grid-column-end: 3;
@@ -202,17 +247,27 @@ body {
         }
       } 
 
+
+
+
+
+
+
+
+
+
+      
     /* ---- Alex's section ---- */
     .the-scoop {
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        grid-auto-rows: auto;
+        grid-rows: auto;
         text-align: center;
         background-color: #122641;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
-        margin: 0.2rem;
-    }
+      }
+
       @media screen (min-width: 800px) {
         .the-scoop {
           display: grid;
@@ -222,7 +277,6 @@ body {
           background-color: #122641;
           border-top-left-radius: 1rem;
           border-top-right-radius: 1rem;
-          margin: 0.2rem;
       }
     }
 
@@ -240,11 +294,11 @@ body {
 
 
       .the-scoop-heading-styling{
-        font-size: 2rem;
+        font-size: xx-large;
         color: #fbffc0;
       }
         .TS-S1 p{
-          font-size: 1rem;
+          font-size: large;
           color: #fbffc0;
           } 
         
@@ -258,6 +312,7 @@ body {
           margin: 1rem;
 
           color: #fbffc0;
+          font-size: x-large;
         }
 
 
@@ -268,6 +323,7 @@ body {
             margin-bottom: 2rem;
 
             color: #fbffc0;
+            font-size: x-large;
         }
 
 
@@ -278,18 +334,23 @@ body {
           grid-row: 4;
 
           color: #fbffc0;
-
+          font-size: large;
         }
 
           .TS-S4-L h5{
-            font-size: 1rem;
+            font-size: medium;
             color: #f2ff3f;
+            font-size: large;
           }
 
           .jacksfilms-pic {
             width: 8rem;
             height: auto;
               margin: auto;
+          }
+
+          .hero {
+            font-size: medium;
           }
 
 
@@ -301,7 +362,6 @@ body {
           grid-row-end: 5;
 
           color: #fbffc0;
-
         }
 
           .TS-S4-R h5{
@@ -344,14 +404,6 @@ body {
 
 
               
-
-
-
-
-
-
-
-
 
     /* ---- Noor's section ---- */
 
@@ -470,41 +522,73 @@ body {
       margin: 0.2rem;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
   grid-column: 1fr;
-  align-items: start;
-  background-color: red 0.5;
   margin: 1rem;
       
     }
 
 .artandmediatitle {
-  grid-column:0/4;
-  grid-row:0;
+  grid-column:1/4;
+  grid-row: 1/2;
+  font-size: 4rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .big-story {
-grid-column: 0/4
-
+  grid-row: 2/3;
+  grid-column:1/4;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
 .story-1 {
- 
+  grid-row:3/4;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
 .story-2 {
-  
+  grid-row:4/5;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
 .story-3 {
-  
+  grid-row:5/6;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
 .story-4 {
-  
+  grid-row:6/7;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
 }
 
+.photo-1 {
+  grid-row:3/4;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+.photo-2 {
+  grid-row:4/5;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+.photo-3 {
+  grid-row:5/6;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+.photo-4 {
+  grid-row:6/7;
+  grid-column:2/4;
+  padding: 3rem 3rem 3rem 3rem;
+}
 
 
     /* ---- Logan's section ---- */
@@ -528,14 +612,24 @@ grid-column: 0/4
     }
 
     .watch-out-title {
-      font-size: 5rem;
+      font-size: 3rem;
     }
+
+    @media (min-width: 1300px) {
+      .watch-out-title {
+        font-size:5rem;
+    }
+  }
 
     .watch-out-subtitle {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
-
+    @media (min-width: 1300px) {
+      .watch-out-subtitle {
+        font-size:2rem;
+    }
+  }
     .watch-out-header-reviews {
       display: flex;
       justify-content: center;
@@ -581,6 +675,7 @@ grid-column: 0/4
 
     .full-movie-review {
       display: flex;
+      flex-direction:column;
       align-items: center;
       padding: 1rem;
       margin: 1rem;
@@ -590,12 +685,11 @@ grid-column: 0/4
       background-color: #122641;
     }
 
-    @media (max-width:450px){
-      .full-movie-review{
-        flex-direction: column;
-      }
+    @media (min-width: 1300px) {
+      .full-movie-review {
+        flex-direction:row;
     }
-
+  }
 
     .review-content-section {
       padding: 1rem;
@@ -662,6 +756,21 @@ grid-column: 0/4
     }
 
     /* ---- end of Logan's section ---- */
+
+    /* ---- Newsletter Sign-up Form ---- */
+.sign-up {
+  background-color: #457b9d;
+  text-align: center;
+  width: fit-content;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.formstyle {
+  margin: 1rem;
+
+}
 
 
 
