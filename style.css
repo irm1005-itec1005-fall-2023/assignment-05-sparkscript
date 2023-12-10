@@ -225,7 +225,8 @@ header ul li a:hover {
         grid-template-columns: 1fr 1fr; 
         grid-rows: auto;
         text-align: center;
-        background-color: #122641;
+        background: rgb(29,53,87);
+        background: linear-gradient(0deg, rgba(29,53,87,1) 90%, rgba(10,28,55,1) 100%);
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
       }
@@ -250,12 +251,7 @@ header ul li a:hover {
 
       padding: 1rem;
       margin: 1rem;    
-      background-color: #122641;
       border-radius: 1rem;
-
-      background-color: #1d3557;
-            padding: 1rem;
-            border-radius:1rem;
     }
 
 
@@ -280,6 +276,9 @@ header ul li a:hover {
           color: #fbffc0;
           font-size: x-large;
           border-radius: 1rem;
+          background-color: #122641;
+          border-radius:1rem;
+
         }
 
 
@@ -289,7 +288,7 @@ header ul li a:hover {
           grid-column-start: 1;
           grid-column-end: 3;
           grid-row: 3;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
 
             color: #fbffc0;
             font-size: x-large;
@@ -304,6 +303,11 @@ header ul li a:hover {
 
           color: #fbffc0;
           font-size: large;
+          background-color: #122641;
+          padding: 1rem;
+          border-radius:1rem;
+          margin-left:1rem;
+          margin-right:0.5rem;
         }
 
           .TS-S4-L h5{
@@ -319,7 +323,7 @@ header ul li a:hover {
           }
 
           .jacksfilms-about {
-            font-size: small;
+            font-size: 1.2rem;
           }
 
         .TS-S4-R {
@@ -330,7 +334,12 @@ header ul li a:hover {
           grid-row-end: 5;
 
           color: #fbffc0;
-          font-size: small;
+          font-size: 1.2rem;
+          background-color: #122641;
+          padding: 1rem;
+          border-radius:1rem;
+          margin-right:1rem;
+          margin-left:0.5rem;
         }
 
           .TS-S4-R h5{
@@ -356,8 +365,8 @@ header ul li a:hover {
             margin-bottom: 2rem;
 
             color: #fbffc0;
-            font-size: small;
-            background-color: #1d3557;
+            font-size: 1.2rem;
+            background-color: #122641;
             margin: 1rem;
             padding: 1rem;
             border-radius:1rem;
@@ -379,10 +388,11 @@ header ul li a:hover {
           grid-row-end: 7;
 
           color: #fbffc0;
-          background-color: #1d3557;
+          background-color: #122641;
           margin: 1rem;
-            padding: 1rem;
-            border-radius:1rem;
+          padding: 1rem;
+          border-radius:1rem;
+          font-size: 1.2rem;
 
         }
 
