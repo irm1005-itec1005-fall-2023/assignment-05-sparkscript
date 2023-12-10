@@ -31,17 +31,22 @@ body {
   background-color: var(--body-background-colour);
 }
 
-.header-grid {
+header{
   background-color: #122641;
+}
+
+.header-grid {
   padding: 0.5rem;
+  padding-right:1.8rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (min-width: 700px) {
-  .he
+@media screen and (min-width: 900px) {
+  .header-grid{
+    flex-direction:row;
   }
 }
 
@@ -50,8 +55,14 @@ header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right:1.3rem;
   font-size:1.3rem;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px) {
+  header ul{
+    flex-direction:row;
+  }
 }
 
 header ul li {
@@ -349,10 +360,9 @@ header ul li a:hover {
               margin: auto;
           }
 
-          .hero {
-            font-size: medium;
+          .jacksfilms-about {
+            font-size: small;
           }
-
 
         .TS-S4-R {
           grid-column-start: 2;
@@ -362,11 +372,13 @@ header ul li a:hover {
           grid-row-end: 5;
 
           color: #fbffc0;
+          font-size: small;
         }
 
           .TS-S4-R h5{
             font-size: 1rem;
             color: #ff2727;
+            font-size: large;
           }
 
             .ssniperwolf-pic {
@@ -386,8 +398,15 @@ header ul li a:hover {
             margin-bottom: 2rem;
 
             color: #fbffc0;
+            font-size: small;
 
          }
+
+          .TS-story-title {
+            font-size: large;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+          }
 
 
         .TS-S6 {
@@ -760,6 +779,7 @@ header ul li a:hover {
     /* ---- Newsletter Sign-up Form ---- */
 .sign-up {
   background-color: #457b9d;
+  justify-content: center;
   text-align: center;
   width: fit-content;
   border-radius: 1rem;
